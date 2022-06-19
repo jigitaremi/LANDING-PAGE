@@ -4,48 +4,57 @@
 }
 
 main{
-    margin: 5px 10px;
+    margin:auto;
     background-color: white;
+    width: 50%;
+    border: solid black;
 }
-.upper-first-cont{
+
+.top-cont{
+    background-image: url(/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+}
+
+.logo-cont{
     display: flex;
     justify-content:space-between;
-  
-
+    padding: 30px 40px;
 }
 
-.logo img{
-    width: 30%;
+.logo-cont img{
+    width: 20%;
 }
 
-.top-btn{
-    border-radius: 15px;
+.logo-cont button{
+    border-radius: 25px;
     border: none;
-    padding: 3px 15px;
+    padding: 2px 15px;
     background-color: white;
     color: hsl(192, 100%, 9%);
-    box-shadow: 1px 1px 3px 1px;
+    box-shadow: 1px 1px 3px 0px;
     font-size: 8px;
     text-align: center;
+    width: 100px;
 }
 
-.first-cont{
+.headline-cont{
     display: flex;
-    margin-top: 20px;
-    background-image: url('/bg-hero-desktop');
+    margin: 30px 40px;
+    padding-bottom: 35px;
 
 }
 
 .head-sub{
-    padding: 15px 0;
+    margin: 40px 30px 20px 0;
 }
 
 .head-sub h1{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .head-sub p{
-    font-size: 18px;
+    font-size: 12px;
+    padding: 20px 0 0 0;
 }
 
 .head-sub button{
@@ -60,7 +69,7 @@ main{
     margin-top: 15px;
 }
 .headline-img img{
-    width: 120%;
+    width: 105%;
 }
 
 
@@ -69,20 +78,64 @@ main{
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    background-color: white;
 }
 
+.three-conts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
 .grow{
     display: flex;
+    background-color: white;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px 30px 50px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.579);
+    border-radius: 8px;
+    
 }
 
+.grow-tog{
+    margin-right: 5px;
+}
+.grow-tog p{
+    padding-top: 10px;
+}
 .grow img{
-    width: 100%;
+    width: 40%;
 }
 
 .flowing{
     display: flex;
+    background-color: white;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.579);
+    border-radius: 8px;
+}
+
+.flowing img{
+    width: 40%;
 }
 
 .your-users{
     display: flex;
+    background-color: white;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.579);
+    border-radius: 8px;
+}
+
+.your-users img{
+    width: 40%;
 }
