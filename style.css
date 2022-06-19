@@ -7,7 +7,6 @@ main{
     margin:auto;
     background-color: white;
     width: 50%;
-    border: solid black;
 }
 
 .top-cont{
@@ -35,6 +34,9 @@ main{
     font-size: 8px;
     text-align: center;
     width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 700;
+    
 }
 
 .headline-cont{
@@ -49,12 +51,16 @@ main{
 }
 
 .head-sub h1{
-    font-size: 30px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .head-sub p{
     font-size: 12px;
     padding: 20px 0 0 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 400;
 }
 
 .head-sub button{
@@ -67,6 +73,8 @@ main{
     font-size: 8px;
     text-align: center;
     margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 .headline-img img{
     width: 105%;
@@ -87,6 +95,7 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .grow{
     display: flex;
@@ -97,14 +106,26 @@ main{
     padding: 30px 10px 30px 50px;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.579);
     border-radius: 8px;
+    margin-bottom: 30px;
     
 }
 
 .grow-tog{
-    margin-right: 5px;
+    padding-right: 20px;
+}
+
+.grow-tog h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
 }
 .grow-tog p{
     padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    color: hsl(208, 11%, 55%);
 }
 .grow img{
     width: 40%;
@@ -119,10 +140,25 @@ main{
     padding: 30px;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.579);
     border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 .flowing img{
     width: 40%;
+}
+
+.flowing h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.flowing p{
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    color: hsl(208, 11%, 55%);
 }
 
 .your-users{
@@ -134,8 +170,23 @@ main{
     padding: 30px;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.579);
     border-radius: 8px;
+    margin-bottom: 30%;
 }
 
 .your-users img{
     width: 40%;
+}
+
+.your-users h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.your-users p{
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    color: hsl(208, 11%, 55%);
 }
